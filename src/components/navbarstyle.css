@@ -1,0 +1,49 @@
+*
+{
+    transition: 1s;
+}
+.Navbar
+{
+    width: 0px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: beige;
+    z-index: 2;
+    transition: 1s;
+}
+.icon img{
+   
+    height: 50px;
+    position: absolute;
+    right: 0;
+}
+.Navbar.Act
+{
+    width: 200px;
+    
+}
+.Navbar.Act img{
+    transform: rotate(90deg);
+
+}
+
+.Navbar ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 20px;
+    overflow-x: hidden;
+    
+}
+.Navbar ul li  {
+    margin-top: 40px;
+}
+.Navbar ul li a {
+    color: black;
+}

@@ -1,0 +1,45 @@
+.Contacts
+{
+    background-color: black;
+    height: 50vh;
+    scroll-snap-align: start;
+}
+.icons
+{
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    left: 10px;
+    margin-top: 140px;
+
+    
+}
+.icons img
+{
+    width: 50px;
+    margin-right: 20px;
+}
+.icons a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+.adress
+{
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    right: 40px;
+    margin-top: 140px;  
+    color: white;
+    align-items: center;
+}
+.adress img{
+    width: 50px;
+    height: 50x;
+}

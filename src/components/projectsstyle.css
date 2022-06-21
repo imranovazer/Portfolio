@@ -1,0 +1,22 @@
+.Projects
+{
+    background-color: brown;
+    height: 100vh;
+    font-display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    scroll-snap-align: start;
+    
+    
+}
+.lol
+{
+    color: white;
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    font-size: xx-large;
+}
