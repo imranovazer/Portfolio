@@ -67,9 +67,10 @@ h2 {
     border: solid black 2px;
     padding: 3px;
     color: black;
-
+    border-radius: 9px;
     font-size: 20px;
     height: 250px;
+    padding: 5px;
 
 }
 
